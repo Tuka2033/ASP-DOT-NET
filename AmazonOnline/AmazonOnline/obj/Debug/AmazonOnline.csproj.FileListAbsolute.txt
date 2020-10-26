@@ -1,0 +1,7 @@
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\AmazonOnline.exe.config
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\AmazonOnline.exe
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\AmazonOnline.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\obj\Debug\AmazonOnline.csprojAssemblyReference.cache
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\obj\Debug\AmazonOnline.csproj.CoreCompileInputs.cache
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\obj\Debug\AmazonOnline.exe
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\obj\Debug\AmazonOnline.pdb
