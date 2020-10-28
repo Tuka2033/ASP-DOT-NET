@@ -40,10 +40,15 @@ namespace AmazonOnline
             foreach (Order or in Om)
             {
 
-                Console.Write(or);
+                Console.Write(or.OrderId+" ");
+                Console.Write(or.OrderDate1+" ");
+                Console.Write(or.Cust.Firstname+" ");
+                Console.Write(or.Cust.ContactNumber+" ");
                 foreach (Item im in or.Items)
                 {
-                    Console.WriteLine(im);
+                    Console.Write(im.theProduct.Title+" ");
+                    Console.Write(im.theProduct.UnitPrice+" ");
+                    Console.WriteLine(im.Quantity+" ");
                 }
             }
         }

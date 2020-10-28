@@ -1,7 +1,7 @@
 ﻿
 using System.Collections.Generic;
-
-namespace OrderProcessing
+using OrderProcessing;
+namespace Membership
 {
    public class OrderManager
     {
