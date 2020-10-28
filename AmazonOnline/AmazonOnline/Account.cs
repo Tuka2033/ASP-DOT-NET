@@ -1,32 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AmazonOnline
+﻿
+namespace Banking
 {
     class Account
     {
-        private float balance;
-
-        public float Balance { get => balance; set => balance = value; }
+        public float Balance { get; set; }
 
         public Account() {
             this.Balance = 000;
         }
        public float Withdraw(float amount) {
-            this.Balance = this.balance - amount;
+            this.Balance = this.Balance - amount;
             return amount;
         }
-        public int Deposit(float amount)
+        public void Deposit(float amount)
         {
-            this.Balance = this.balance + amount;
-            return 1;
+            this.Balance = this.Balance + amount;
         }
         public float Display()
         {
             return this.Balance;
+        }
+        public override string ToString()
+        {
+            return this.Balance.ToString();
         }
     }
 }

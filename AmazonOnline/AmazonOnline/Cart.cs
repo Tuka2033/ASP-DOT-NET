@@ -1,35 +1,39 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace AmazonOnline
+namespace ShoppingCart
 {
     class Cart
     {
-        private List<Item> item;
-        private int i = 0;
+
+        private List<Item> list = new List<Item>();
+        public List<Item> Items { 
+            get { return list; }
+            set { list = value; }
+        }
+    
         public Cart() {
-            item = new List<Item>();
+           
         }
 
-       // internal Item[] Item { get => item; set => item = value; }
-
+        public Cart(List<Item> list)
+        {
+            this.list = list;
+        }
+        
         public void AddtoCart(Item item)
         {
-          // item.Add(item);
+            list.Add(item);
         }
         public void RemoveFromCart(Item item)
         {
-            if (i > 0)
-            {
-                this.item[i] = item;
-                i--;
-            }
+            list.Remove(item);
         }
-        
+
+      public List<Item> getAll()
+        {
+            return Items;
+        }
     }
 
-   
+
 }

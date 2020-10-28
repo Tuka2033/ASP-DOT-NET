@@ -1,21 +1,18 @@
-﻿using System;
+﻿using Catalog;
+using CRM;
+using OrderProcessing;
+using ShoppingCart;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Catalog;
-using CRM;
-using OrderProcessing;
-using ShoppingCart;
-using Banking;
-using Membership;
-//using ShoppingCart;
 
 namespace AmazonOnline
 {
-    public class Program
+    public class OrderProcessingtest
     {
-        static void Main(string[] args)
+        public static void main(string[] args)
         {
             Product product = new Product(101, "Rose", "Flower", 10, 200);
 
@@ -39,14 +36,12 @@ namespace AmazonOnline
 
             foreach (Order or in Om)
             {
-
-                Console.Write(or);
-                foreach (Item im in or.Items)
+                Console.WriteLine(or);
+                foreach(Item im in or)
                 {
                     Console.WriteLine(im);
                 }
             }
         }
-
     }
 }
