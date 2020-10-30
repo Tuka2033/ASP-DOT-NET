@@ -4,9 +4,35 @@ using System.Collections.Generic;
 
 namespace OrderProcessing
 {
+
+    // Singleton pattern
+    // allow only one instance of  a class to be created.
+    //  1.define private constuctor
+    //  2.Keep self refrence  as static variable to class.
+    //  3.Create instance of class by verfying referece nullability
+    //     with the help of static method
+
     public class PurchaseManager
     {
 		List<Order> orders = new List<Order>();
+
+        private static PurchaseManager _ref = null;
+
+        private PurchaseManager()
+        {
+
+        }
+
+        public static PurchaseManager GetManager() 
+        {
+            if (_ref == null)
+            {
+                _ref = new PurchaseManager();
+                return _ref;
+            }                 
+            else
+                return _ref;
+        }
         public List<Order> Orders 
         {
             get { return orders; }

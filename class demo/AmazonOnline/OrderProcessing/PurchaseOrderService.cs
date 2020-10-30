@@ -9,7 +9,7 @@ namespace OrderProcessing
     public class PurchaseOrderService : IOrderService
     {
 
-        PurchaseManager mgr = new PurchaseManager();
+        PurchaseManager mgr = PurchaseManager.GetManager();
         public PurchaseOrderService() 
         {
         }

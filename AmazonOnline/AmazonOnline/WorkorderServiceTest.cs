@@ -8,6 +8,7 @@ namespace OrderProcessing
     {
         public static void Main(string[] args)
         {
+           orderDeliveryManager mgr2 =  orderDeliveryManager.GetManager();
             DateTime ordDate = DateTime.Now;
 
             Job job1 = new Job { ID = 1, Title = "Collect Parcel from Amazon Stores", Description = "Collect all todays parcels to be delivered from Mumbai warehouse", Duration = 3, Status = "Not started" };

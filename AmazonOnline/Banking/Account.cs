@@ -1,24 +1,39 @@
 ﻿
+using System.Diagnostics.Tracing;
+
 namespace Banking
 {
-    class Account
+  public delegate void AccountHandler();  //define delegate
+    public class Account
     {
-        public float Balance { get; set; }
+         public event AccountHandler overBalance;//event
+         public  event AccountHandler underBalance;//event
 
-        public Account() {
-            this.Balance = 000;
+
+         public float Balance { get; set; }
+
+        public Account(float amount) {
+            this.Balance = amount;
         }
-       public float Withdraw(float amount) {
+        public void monitor()
+        {
+            if (this.Balance < 5000)
+            {
+                underBalance();
+            }
+            else if(this.Balance>50000)
+            {
+                overBalance();
+            }
+        }
+        public void Withdraw(float amount) {
             this.Balance = this.Balance - amount;
-            return amount;
+            monitor();
         }
         public void Deposit(float amount)
         {
             this.Balance = this.Balance + amount;
-        }
-        public float Display()
-        {
-            return this.Balance;
+             monitor();
         }
         public override string ToString()
         {

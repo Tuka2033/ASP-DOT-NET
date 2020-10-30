@@ -30,7 +30,7 @@ namespace AmazonOnline
 
             //customer
             Customer customer = new Customer(100, "Tuka", "Pandhare", "Tuka@gmail.com", 1234);
-            
+
             //date
             DateTime date = new DateTime(2020, 10, 27);
 
@@ -39,27 +39,27 @@ namespace AmazonOnline
 
             //service
             IorderService service = new purchesOrderService();
-             service.create(order);
+            service.create(order);
 
             //ordermanager
-           // OrderManager om = new OrderManager();
+            // OrderManager om = new OrderManager();
 
-           // om.insert(order);
+            // om.insert(order);
 
-            List<Order> Om =service.getOrders();
+            List<Order> Om = service.getOrders();
 
             foreach (Order or in Om)
             {
 
-                Console.Write(or.OrderId+" ");
-                Console.Write(or.OrderDate1+" ");
-                Console.Write(or.Cust.Firstname+" ");
-                Console.Write(or.Cust.ContactNumber+" ");
+                Console.Write(or.OrderId + " ");
+                Console.Write(or.OrderDate1 + " ");
+                Console.Write(or.Cust.Firstname + " ");
+                Console.Write(or.Cust.ContactNumber + " ");
                 foreach (Item im in or.Items)
                 {
-                    Console.Write(im.theProduct.Title+" ");
-                    Console.Write(im.theProduct.UnitPrice+" ");
-                    Console.WriteLine(im.Quantity+" ");
+                    Console.Write(im.theProduct.Title + " ");
+                    Console.Write(im.theProduct.UnitPrice + " ");
+                    Console.WriteLine(im.Quantity + " ");
                 }
             }
         }

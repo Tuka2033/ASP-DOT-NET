@@ -5,7 +5,7 @@ namespace OrderProcessing
 {
     public class purchesOrderService : IorderService
     {
-        purchesOrderManager purchesordermanager = new purchesOrderManager();
+        purchesOrderManager purchesordermanager=purchesOrderManager.GetManager();
         public bool cancal(Order order)
         {
            bool status = false;

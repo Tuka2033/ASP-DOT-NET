@@ -6,8 +6,7 @@ namespace OrderProcessing
 {
     public class workOrderService : IorderService
     {
-        orderDeliveryManager orderdelivermanager = new orderDeliveryManager();
-
+        orderDeliveryManager orderdelivermanager = orderDeliveryManager.GetManager();
         public workOrderService()
         {
         }

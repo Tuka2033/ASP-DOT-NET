@@ -6,6 +6,24 @@ namespace OrderProcessing
    public class orderDeliveryManager
     {
         List<Order> orders = new List<Order>();
+     private static orderDeliveryManager _ref = null;
+
+      private orderDeliveryManager()
+        {
+        }
+        public static orderDeliveryManager GetManager()
+        {
+            if (_ref == null)
+            {
+                _ref = new orderDeliveryManager();
+                return _ref;
+            }
+            else
+            {
+                return _ref;
+            }
+        }
+
         public List<Order> Orders
         {
             get { return orders; }

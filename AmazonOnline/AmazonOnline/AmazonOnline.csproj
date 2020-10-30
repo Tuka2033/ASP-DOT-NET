@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AmazonOnline.WorkorderServiceTest</StartupObject>
+    <StartupObject>OrderProcessing.WorkorderServiceTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -61,6 +61,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="eventDelegateTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PurchesServiceTest.cs" />
     <Compile Include="WorkorderServiceTest.cs" />
@@ -85,6 +86,10 @@
       <Project>{49a59019-286b-42f8-a33e-eca53d7ff845}</Project>
       <Name>Banking</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BankRule\BankRule.csproj">
+      <Project>{52972eee-b199-41ba-9ab0-480cbb7525d3}</Project>
+      <Name>BankRule</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Catalog\Catalog.csproj">
       <Project>{a8d08747-679a-4b6a-b238-5c8f1216aed9}</Project>
       <Name>Catalog</Name>
@@ -92,6 +97,14 @@
     <ProjectReference Include="..\CRM\CRM.csproj">
       <Project>{f13c156c-cac0-4e9b-87ae-30fcf7cd5145}</Project>
       <Name>CRM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GovertmentDelegate\GovertmentDelegate.csproj">
+      <Project>{4fb740ba-1328-4321-9803-804fd0abef28}</Project>
+      <Name>GovertmentDelegate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HR\HR.csproj">
+      <Project>{f28c3506-c814-4067-8e1a-c2deb7a09005}</Project>
+      <Name>HR</Name>
     </ProjectReference>
     <ProjectReference Include="..\Membership\Membership.csproj">
       <Project>{be17a99c-e2e1-40bf-8dac-2d061cde9554}</Project>

@@ -4,6 +4,25 @@ namespace OrderProcessing
     public class purchesOrderManager
     {
         List<Order> orders = new List<Order>();
+        private static purchesOrderManager _ref=null;
+
+        private purchesOrderManager()
+        {
+
+        }
+
+        public static purchesOrderManager GetManager()
+        {
+            if(_ref==null)
+            {
+                _ref = new purchesOrderManager();
+                return _ref;
+            }
+            else {
+                return _ref;
+            }
+        }
+
         public List<Order> Orders
         {
             get { return orders; }

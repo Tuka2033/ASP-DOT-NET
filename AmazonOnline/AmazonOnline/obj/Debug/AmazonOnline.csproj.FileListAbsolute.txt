@@ -18,3 +18,9 @@ D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\Mem
 D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\Orderprocessing.pdb
 D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\Shoppingcart.pdb
 D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\obj\Debug\AmazonOnline.csproj.CopyComplete
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\BankRule.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\GovertmentDelegate.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\HR.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\BankRule.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\GovertmentDelegate.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\HR.pdb
