@@ -8,12 +8,7 @@ namespace HR
 {
 
     //User defined structure Type
-    public struct Point
-    {
-        public int x;
-        public int y;
-
-    }
+   
     public class Person
     {
         public Person() {
@@ -27,9 +22,9 @@ namespace HR
             this.LastName = lname;
             this.BirthDate = bdate;
         }
-        private string FirstName { get; set; }
-        private string LastName { get; set; }
-        private DateTime BirthDate {get;set;}
+        protected string FirstName { get; set; }
+        protected string LastName { get; set; }
+        protected DateTime BirthDate {get;set;}
 
 
         public override string ToString()

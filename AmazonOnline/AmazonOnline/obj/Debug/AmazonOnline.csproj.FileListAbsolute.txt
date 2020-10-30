@@ -5,3 +5,16 @@ D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\obj\Debug\Ama
 D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\obj\Debug\AmazonOnline.csproj.CoreCompileInputs.cache
 D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\obj\Debug\AmazonOnline.exe
 D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\obj\Debug\AmazonOnline.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\Banking.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\Catalog.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\CRM.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\Membership.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\Orderprocessing.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\Shoppingcart.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\Banking.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\Catalog.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\CRM.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\Membership.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\Orderprocessing.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\bin\Debug\Shoppingcart.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\AmazonOnline\obj\Debug\AmazonOnline.csproj.CopyComplete

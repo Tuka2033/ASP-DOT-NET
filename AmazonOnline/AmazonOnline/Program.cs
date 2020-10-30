@@ -17,25 +17,36 @@ namespace AmazonOnline
     {
         static void Main(string[] args)
         {
+            //product
             Product product = new Product(101, "Rose", "Flower", 10, 200);
 
+            //item
             Item item = new Item(product, 50);
 
+            //cart
             Cart cart = new Cart();
             cart.AddtoCart(item);
             List<Item> cart1 = cart.getAll();
 
+            //customer
             Customer customer = new Customer(100, "Tuka", "Pandhare", "Tuka@gmail.com", 1234);
-
+            
+            //date
             DateTime date = new DateTime(2020, 10, 27);
 
+            //order
             Order order = new Order(cart1, 102, date, customer);
 
-            OrderManager om = new OrderManager();
+            //service
+            IorderService service = new purchesOrderService();
+             service.create(order);
 
-            om.insert(order);
+            //ordermanager
+           // OrderManager om = new OrderManager();
 
-            List<Order> Om = om.getAll();
+           // om.insert(order);
+
+            List<Order> Om =service.getOrders();
 
             foreach (Order or in Om)
             {

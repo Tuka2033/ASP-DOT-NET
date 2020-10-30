@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AmazonOnline.Program</StartupObject>
+    <StartupObject>AmazonOnline.WorkorderServiceTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -61,16 +61,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Account.cs" />
-    <Compile Include="AccountManager.cs" />
-    <Compile Include="Cart.cs" />
-    <Compile Include="Customer.cs" />
-    <Compile Include="Item.cs" />
-    <Compile Include="Order.cs" />
-    <Compile Include="OrderManager.cs" />
-    <Compile Include="Product.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchesServiceTest.cs" />
+    <Compile Include="WorkorderServiceTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -86,6 +79,32 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Banking\Banking.csproj">
+      <Project>{49a59019-286b-42f8-a33e-eca53d7ff845}</Project>
+      <Name>Banking</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Catalog\Catalog.csproj">
+      <Project>{a8d08747-679a-4b6a-b238-5c8f1216aed9}</Project>
+      <Name>Catalog</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CRM\CRM.csproj">
+      <Project>{f13c156c-cac0-4e9b-87ae-30fcf7cd5145}</Project>
+      <Name>CRM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Membership\Membership.csproj">
+      <Project>{be17a99c-e2e1-40bf-8dac-2d061cde9554}</Project>
+      <Name>Membership</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Orderprocessing\Orderprocessing.csproj">
+      <Project>{38e5c652-fb2d-46f9-951e-177c81675172}</Project>
+      <Name>Orderprocessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shoppingcart\Shoppingcart.csproj">
+      <Project>{30e5463f-aa68-462b-a12b-f46b834ca4c1}</Project>
+      <Name>Shoppingcart</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
