@@ -1,0 +1,11 @@
+D:\TAP\AmazonOnline\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\TAP\AmazonOnline\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\TAP\AmazonOnline\BLL\bin\Debug\BLL.dll
+D:\TAP\AmazonOnline\BLL\bin\Debug\BLL.pdb
+D:\TAP\AmazonOnline\BLL\bin\Debug\Catalog.dll
+D:\TAP\AmazonOnline\BLL\bin\Debug\Catalog.pdb
+D:\TAP\AmazonOnline\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\TAP\AmazonOnline\BLL\obj\Debug\BLL.dll
+D:\TAP\AmazonOnline\BLL\obj\Debug\BLL.pdb
+D:\TAP\AmazonOnline\BLL\bin\Debug\DAL.dll
+D:\TAP\AmazonOnline\BLL\bin\Debug\DAL.pdb

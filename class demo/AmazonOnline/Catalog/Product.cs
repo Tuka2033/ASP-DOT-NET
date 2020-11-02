@@ -1,5 +1,9 @@
-﻿namespace Catalog
+﻿using System;
+
+namespace Catalog
 {
+
+    [Serializable]
    public class Product
     {
         private string title;
@@ -11,6 +15,7 @@
         //readonly property
         public int ID
         {
+            set { this.id = value; }
             get { return this.id; }
         }
         public string Title
@@ -47,7 +52,6 @@
         {
            // to DeInitialize object instance before getting destroyed.
         }
-
 
         //Object
         //object

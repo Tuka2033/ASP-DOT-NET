@@ -1,0 +1,18 @@
+D:\TAP\AmazonOnline\DAL\bin\Debug\DAL.dll
+D:\TAP\AmazonOnline\DAL\bin\Debug\DAL.pdb
+D:\TAP\AmazonOnline\DAL\bin\Debug\Catalog.dll
+D:\TAP\AmazonOnline\DAL\bin\Debug\Catalog.pdb
+D:\TAP\AmazonOnline\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\TAP\AmazonOnline\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\TAP\AmazonOnline\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\TAP\AmazonOnline\DAL\obj\Debug\DAL.dll
+D:\TAP\AmazonOnline\DAL\obj\Debug\DAL.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\DAL\bin\Debug\DAL.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\DAL\bin\Debug\DAL.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\DAL\bin\Debug\Catalog.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\DAL\bin\Debug\Catalog.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\DAL\obj\Debug\DAL.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\DAL\obj\Debug\DAL.pdb

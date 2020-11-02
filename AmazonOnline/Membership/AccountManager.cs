@@ -4,7 +4,7 @@ using CRM;
 namespace Membership
 
 {
-    class AccountManager
+   public class AccountManager
     {
         public static Boolean Login(string uid, string pwd)
         {

@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TesterApp.EventDemoTest</StartupObject>
+    <StartupObject>TesterApp.SQLDBTest</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,11 +68,13 @@
     <Compile Include="EventDemoTest.cs" />
     <Compile Include="InheritanceTest.cs" />
     <Compile Include="LanguageFeaturesTest.cs" />
+    <Compile Include="LINQTest.cs" />
     <Compile Include="PurchaseOrderTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecurityTest.cs" />
     <Compile Include="SingletonTest.cs" />
+    <Compile Include="SQLDBTest.cs" />
     <Compile Include="WorkOrderTest.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -67,6 +84,10 @@
     <ProjectReference Include="..\Banking\Banking.csproj">
       <Project>{04398ca3-a79b-4332-8dbc-c529eb2dd62f}</Project>
       <Name>Banking</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{d17f2d77-8860-43d9-b652-e7b8bc627cef}</Project>
+      <Name>BLL</Name>
     </ProjectReference>
     <ProjectReference Include="..\Catalog\Catalog.csproj">
       <Project>{eba759a2-d669-4799-b6d7-301018469fc4}</Project>
@@ -96,6 +117,27 @@
       <Project>{02c37fe2-5b64-4a2f-8b86-75642b00e7d1}</Project>
       <Name>ShoppingCart</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ECommerce.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ECommerce_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>ECommerce.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

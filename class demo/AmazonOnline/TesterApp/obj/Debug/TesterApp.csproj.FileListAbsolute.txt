@@ -1,10 +1,6 @@
 D:\TAP\AmazonOnline\TesterApp\bin\Debug\TesterApp.exe.config
 D:\TAP\AmazonOnline\TesterApp\bin\Debug\TesterApp.exe
 D:\TAP\AmazonOnline\TesterApp\bin\Debug\TesterApp.pdb
-D:\TAP\AmazonOnline\TesterApp\obj\Debug\TesterApp.csproj.CoreCompileInputs.cache
-D:\TAP\AmazonOnline\TesterApp\obj\Debug\TesterApp.exe
-D:\TAP\AmazonOnline\TesterApp\obj\Debug\TesterApp.pdb
-D:\TAP\AmazonOnline\TesterApp\obj\Debug\TesterApp.csprojAssemblyReference.cache
 D:\TAP\AmazonOnline\TesterApp\bin\Debug\Banking.dll
 D:\TAP\AmazonOnline\TesterApp\bin\Debug\Catalog.dll
 D:\TAP\AmazonOnline\TesterApp\bin\Debug\CRM.dll
@@ -21,4 +17,44 @@ D:\TAP\AmazonOnline\TesterApp\bin\Debug\MathLib.pdb
 D:\TAP\AmazonOnline\TesterApp\bin\Debug\Membership.pdb
 D:\TAP\AmazonOnline\TesterApp\bin\Debug\OrderProcessing.pdb
 D:\TAP\AmazonOnline\TesterApp\bin\Debug\ShoppingCart.pdb
+D:\TAP\AmazonOnline\TesterApp\obj\Debug\TesterApp.csprojAssemblyReference.cache
+D:\TAP\AmazonOnline\TesterApp\obj\Debug\TesterApp.csproj.CoreCompileInputs.cache
 D:\TAP\AmazonOnline\TesterApp\obj\Debug\TesterApp.csproj.CopyComplete
+D:\TAP\AmazonOnline\TesterApp\obj\Debug\TesterApp.exe
+D:\TAP\AmazonOnline\TesterApp\obj\Debug\TesterApp.pdb
+D:\TAP\AmazonOnline\TesterApp\bin\Debug\BLL.dll
+D:\TAP\AmazonOnline\TesterApp\bin\Debug\BLL.pdb
+D:\TAP\AmazonOnline\TesterApp\bin\Debug\ECommerce.mdf
+D:\TAP\AmazonOnline\TesterApp\bin\Debug\ECommerce_log.ldf
+D:\TAP\AmazonOnline\TesterApp\bin\Debug\DAL.dll
+D:\TAP\AmazonOnline\TesterApp\bin\Debug\DAL.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\ECommerce.mdf
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\ECommerce_log.ldf
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\TesterApp.exe.config
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\TesterApp.exe
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\TesterApp.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\Banking.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\BLL.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\Catalog.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\CRM.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\HR.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\MathLib.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\Membership.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\OrderProcessing.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\ShoppingCart.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\DAL.dll
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\Banking.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\BLL.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\Catalog.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\CRM.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\HR.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\MathLib.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\Membership.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\OrderProcessing.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\ShoppingCart.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\bin\Debug\DAL.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\obj\Debug\TesterApp.csprojAssemblyReference.cache
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\obj\Debug\TesterApp.csproj.CoreCompileInputs.cache
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\obj\Debug\TesterApp.csproj.CopyComplete
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\obj\Debug\TesterApp.exe
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\class demo\AmazonOnline\TesterApp\obj\Debug\TesterApp.pdb

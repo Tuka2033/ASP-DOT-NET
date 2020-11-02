@@ -3,3 +3,4 @@ D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\Catalog\bin\Debug\Catalog.
 D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\Catalog\obj\Debug\Catalog.csproj.CoreCompileInputs.cache
 D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\Catalog\obj\Debug\Catalog.dll
 D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\Catalog\obj\Debug\Catalog.pdb
+D:\C-DAC Assignment\ASP .NET\ASP-DOT-NET\AmazonOnline\Catalog\obj\Debug\Catalog.csprojAssemblyReference.cache
